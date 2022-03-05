@@ -1,18 +1,22 @@
 .partners {
 
     &__container {
-        min-width: 385px;
-        margin: 0 auto;
+        max-width: 385px;
+        margin: auto;
         padding: 0 5px;
 
-
         @media screen and (min-width: 768px) {
-            min-width: 778px;
+            max-width: 738px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            max-width: 1180px;
         }
     }
 
     &__inner {
         padding: 70px 20px 73px;
+        width: 100%;
         // border-top: 1px solid #BBC4D6;
 
 
@@ -33,18 +37,23 @@
     }
 
     &__images {
+
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
 
         @media screen and (min-width: 768px) {
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
+        }
 
+        @media screen and (min-width: 1440px) {
+            grid-template-columns: repeat(4, 1fr);
         }
     }
 
     &__img {
         max-width: 335px;
+        width: 100%;
 
         &:hover {
             opacity: 0.5;

@@ -357,9 +357,15 @@ template {
 }
 
 .partners__container {
-    min-width: 385px;
-    margin: 0 auto;
+    max-width: 385px;
+    margin: auto;
     padding: 0 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .partners__container {
+        min-width: 778px;
+    }
 }
 
 .partners__inner {
@@ -389,8 +395,13 @@ template {
     }
 }
 
+.partners__img {
+    max-width: 335px;
+}
+
 .partners__img:hover {
     opacity: 0.5;
     outline: 1px solid black;
     border-radius: 5px;
+    box-shadow: -3px 0px 40px 0px rgba(0, 0, 0, 0.5);
 }
