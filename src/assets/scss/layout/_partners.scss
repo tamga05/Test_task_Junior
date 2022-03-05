@@ -1,0 +1,56 @@
+.partners {
+
+    &__container {
+        min-width: 385px;
+        margin: 0 auto;
+        padding: 0 5px;
+
+
+        @media screen and (min-width: 768px) {
+            min-width: 778px;
+        }
+    }
+
+    &__inner {
+        padding: 70px 20px 73px;
+        // border-top: 1px solid #BBC4D6;
+
+
+        // @media screen and (min-width: 768px) {
+        //     box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+        // }
+    }
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #121920;
+        margin-bottom: 30px;
+    }
+
+    &__images {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        @media screen and (min-width: 768px) {
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+    }
+
+    &__img {
+        max-width: 335px;
+
+        &:hover {
+            opacity: 0.5;
+            outline: 1px solid black;
+            border-radius: 5px;
+            box-shadow: -3px 0px 40px 0px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
