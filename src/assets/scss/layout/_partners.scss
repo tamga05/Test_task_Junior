@@ -6,7 +6,7 @@
         padding: 0 5px;
 
         @media screen and (min-width: 768px) {
-            max-width: 738px;
+            max-width: 778px;
         }
 
         @media screen and (min-width: 1440px) {
@@ -17,12 +17,10 @@
     &__inner {
         padding: 70px 20px 73px;
         width: 100%;
-        // border-top: 1px solid #BBC4D6;
 
-
-        // @media screen and (min-width: 768px) {
-        //     box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
-        // }
+        @media screen and (min-width: 768px) {
+            padding: 70px 20px 0;
+        }
     }
 
     &__title {
@@ -63,3 +61,9 @@
         }
     }
 }
+
+// border-top: 1px solid #BBC4D6;
+
+// @media screen and (min-width: 768px) {
+//     box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+// }
