@@ -1,4 +1,4 @@
 # Test_task_Junior
-Gulp+SCSS+Mobile first+Grid+Flexbox - full adaptive layout.
+This project was created on the basis of a real test task of a Russian company for an candidate middle layout developer...😎
 
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/tamga05/Test_task_Junior?style=flat-square" height="27">
